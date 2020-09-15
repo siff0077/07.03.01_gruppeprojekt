@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sugar Rush</title>
+    <meta name="robots" content="noindex">
+    <link rel="icon" type="image/png" href="img/favicon16.svg">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section>
+        <header>
+            <section id="splash">
+                <a id="logo" href="index.html">
+                    <img src="img/logo.png" alt="logo">
+                </a>
+
+            </section>
+
+            <button id="burgerknap">
+                =
+            </button>
+            <nav class="hidden">
+
+                <button><a href="index.html">Forside</a></button>
+                <hr>
+                <button class="filter" data-kategori="alle">Alle</button>
+                <hr>
+                <button class="filter" data-kategori="Kage">Kage</button>
+                <hr>
+                <button class="filter" data-kategori="Cupcakes">Cupcakes</button>
+                <hr>
+                <button class="filter" data-kategori="Is">Is</button>
+
+                <hr>
+                <button class="filter" data-kategori="Donuts">Donuts</button>
+                <hr>
+                <button class="filter" data-kategori="Andet">Andet</button>
+                <hr>
+                <button class="om_os"><a href="om_os.html">Om os</a></button>
+
+            </nav>
+        </header>
+    </section>
+    <section>
+        <div id="forside">
+            <img src="img/forsidebillede.jpg" alt="cupcakes på lyseblå baggrund">
+            <h2>Velkommen</h2>
+            <p>Her hos Sugar Rush finder du tre kategorier.<br><br>"Sugar Rush" er til dig, som er klar på en ordentlig omgang sødme og sukker! Sødere bliver det ikke!<br><br>"Sweet Tooth" er til dig, som lige skal stille den søde tand tilfreds!<br><br>"Just a Snack" er til dig, som bare lige skal have en bid på farten! En hurtig sød hapser!</p>
+
+        </div>
+        <h2 id="kageTitel">Alle</h2>
+        <div id="container">
+
+        </div>
+
+    </section>
+    <footer>
+        <p>Kontakt<br>Hello!<br>Sugar Rush<br>Brug af opskrifter på eget ansvar</p>
+        <img src="img/logo.png" alt="logo">
+    </footer>
+
+    <div id="popup">
+        <section id="popsection">
+            <div class="cross"><button id="luk">X</button></div>
+            <img src="" alt="" id="popbillede">
+            <h3 id="popnavn"></h3>
+            <p id="popopskrift"></p>
+        </section>
+
+    </div>
+
+    <template>
+        <article>
+            <img src="" alt="">
+            <h3></h3>
+        </article>
+    </template>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
